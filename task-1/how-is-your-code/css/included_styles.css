@@ -1,0 +1,16 @@
+
+.current-mood-box {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: lightblue;
+    border: 1px solid cornflowerblue;
+    margin-bottom: 10px;
+}
+
+
+.bottom-line-box {
+    padding: 20px 10px;
+    background-color: lightgray;
+    border-left: 5px solid lightcoral;
+    margin-bottom: 10px;
+}
