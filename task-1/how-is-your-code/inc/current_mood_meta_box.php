@@ -101,9 +101,9 @@ function add_the_current_mood_to_posts() {
 	if ( is_single() ) {
 		$id           = get_the_ID();
 		$current_mood = get_post_meta( $id, '_current_mood', true );
-		echo    '<div class="current-mood-box">'.
-		        '<h3>This Post\'s cuurent mood: </h3>' .
-		        $current_mood .
-		        '</div>';
+		echo '<div class="current-mood-box">' .
+		     '<h3>This Post\'s cuurent mood: </h3>' .
+		     $current_mood .
+		     '</div>';
 	}
 }
