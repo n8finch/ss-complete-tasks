@@ -10,9 +10,9 @@ Below are the solutions and explinations to tasks required to be a Support Star!
 
 Plugin:
 
-1. Displays unique customer ID (random number + append user ID)
-2. Shortcode that does something (maybe a high-five button?)
-3. A function to use within the theme (maybe simple function that adds a meta box and current mood to blog posts?) Assumes a sidebar, add with metabox.
+1. If this was a real client, I'd want to clarify exactly what they want in the number, where they want it and if it should be consistent. I opted for a random number with the appended user ID. 
+2. Since it was not clear exactly what the client wanted in a shortcode, I just added the ability for them to add a "Bottom Line" short code to whatever piece of content they like. If they use the shortcode `[bottom-line]` add some content and close the content with `[/bottom-line]`, that content will be highlighted with light gray and a red left border, and titled "The Bottom Line". The short code could be whatever they want, but this was a quick solution for this task.
+3. Again, since 
 
 
 ## 2. And what about your theming?
